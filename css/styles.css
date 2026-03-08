@@ -357,8 +357,7 @@ button {
 
 @media (min-width: 768px) {
   .features-list {
-    column-gap: 24px;
-    row-gap: 72px;
+    gap: 72px 24px;
   }
 
   .features-item {
@@ -367,6 +366,10 @@ button {
 }
 
 @media (min-width: 1158px) {
+  .features-list {
+    gap: 24px;
+  }
+
   .features-item {
     width: calc((100% - 3 * 24px) / 4);
   }
@@ -1185,7 +1188,6 @@ button {
   list-style: none;
   padding: 0;
 }
-
 
 @media (min-width: 768px) {
   .mobile-menu {
