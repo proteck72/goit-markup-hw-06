@@ -662,8 +662,6 @@ button {
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
