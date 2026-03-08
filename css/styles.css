@@ -528,6 +528,11 @@ button {
 
 /* #region PORTFOLIO */
 
+.portfolio-title {
+  margin-bottom: 72px;
+  text-align: center;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
